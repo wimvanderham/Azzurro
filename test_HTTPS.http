@@ -1,0 +1,16 @@
+POST
+https://third.zcsazzurroportal.com:19003/
+Authorization: "Zcs eHWAeEq0aYO0"
+Client: "VanDerHam"
+
+{
+    "historicData": {
+        "command": "historicData",
+        "params": {
+            "thingKey": "ZA1ES111H1C029, ZE1ES330M3E696, ZP1ES010L68003, 2612280094",
+            "requiredValues": "*",
+            "start": "2022-01-18T00:00:00.000Z",
+            "end": "2022-01-18T23:59:59.059Z"
+        }
+    }
+}
