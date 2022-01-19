@@ -3,14 +3,12 @@ Content-Type: application/json
 Authorization: Zcs eHWAeEq0aYO0
 
 {
-    "historicData": { 
+    "realtimeData": { 
         "client": "VanDerHam",
-        "command": "historicData",
+        "command": "realtimeData",
         "params" : {
           "thingKey": "ZM1ES030M5R243",
-          "requiredValues": "*",
-          "start": "2022-01-19T00:00:00.000Z",
-          "end": "2022-01-19T23:59:59.059Z"
-      }
+          "requiredValues": "*"
+        }
    }
 }
